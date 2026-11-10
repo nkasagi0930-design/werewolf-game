@@ -39,6 +39,8 @@ git commit -m "Add JRA jockey agent data"
 | `agents.csv` / `agents.json` | エージェントごとの担当騎手データ |
 | `jockeys.csv` | 騎手ごとの所属・若手かどうか・担当エージェント |
 | `build.py` | JRAのPDFからデータを作り直すスクリプト |
+| `agent_results_2026-11-07_08.md` / `.csv` | 2026年11月7・8日（東京・京都・福島 全72レース）のエージェント別成績 |
+| `agent_results.py` | レース結果ページからエージェント別成績を集計するスクリプト |
 
 ## データを最新にしたいとき
 
