@@ -16,6 +16,7 @@ claude/kind-maxwell-hyg5wf ブランチにある jra_agents フォルダを、
 のあと git checkout FETCH_HEAD -- jra_agents です。
 取り込んだら、置き場所をこのプロジェクトの構成に合わせて整理し、
 jra_agents/RECOVERY.md は削除してからコミットしてください。
+そのあと jra_agents/HANDOVER.md を読んで、内容を要約してください。
 ```
 
 ## 方法B: 自分でコマンドを打つ
@@ -35,6 +36,7 @@ git commit -m "Add JRA jockey agent data"
 
 | ファイル | 中身 |
 |---|---|
+| `HANDOVER.md` | 「人」に注目したモデル改善の方針メモ（PCのClaude Codeに読ませる） |
 | `README.md` | エージェント別の担当騎手一覧（表） |
 | `agents.csv` / `agents.json` | エージェントごとの担当騎手データ |
 | `jockeys.csv` | 騎手ごとの所属・若手かどうか・担当エージェント |
