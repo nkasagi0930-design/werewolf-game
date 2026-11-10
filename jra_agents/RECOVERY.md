@@ -43,6 +43,9 @@ git commit -m "Add JRA jockey agent data"
 | `agent_results.py` | レース結果ページからエージェント別成績を集計するスクリプト |
 | `same_agent_races_2026-11-07_08.md` | 同じエージェントの騎手が同じレースに出たときと単独のときの成績比較 |
 | `same_agent_races.py` | 上の比較を作るスクリプト |
+| `agent_pairs_2026-11-07_08.md` | エージェント×馬主、エージェント×調教師の成績（主な組み合わせ） |
+| `agent_x_owner_2026-11-07_08.csv` / `agent_x_trainer_2026-11-07_08.csv` | 上の全組み合わせ |
+| `agent_pairs.py` | 上の集計を作るスクリプト（馬主は出馬表ページから取る） |
 
 ## データを最新にしたいとき
 
